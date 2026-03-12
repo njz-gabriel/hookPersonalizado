@@ -1,0 +1,6 @@
+Aplicar estilização utilizando taiwind css e shadcn na página inicial de Recipes.
+Desenvolver a página de Reviews com as boas práticas lecionadas. Requisitos:
+	- Criar hook personalizado para o endpoint
+	- SSR para renderização inicial
+	- Manipular variáveis de controle 'loading' e 'error' para controle de status da requisição ao usuário
+	- DESAFIO: Além de métodos GET aplicar POST, PUT e DELETE via modais.
