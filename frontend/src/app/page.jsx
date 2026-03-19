@@ -62,10 +62,14 @@ export default async function Home() {
   const reviews = await getReviews();
 
   return (
-    <ToggleSection 
-      recipes={recipes} 
-      reviews={reviews} 
-    />
+    <>
+      <div className='bg-orange-50'>
+        <ToggleSection
+          recipes={recipes}
+          reviews={reviews}
+        />
+      </div>
+    </>
   )
 }
 
